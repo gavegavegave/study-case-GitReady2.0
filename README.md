@@ -10,16 +10,9 @@ Profile Card adalah halaman kartu profil interaktif untuk tiga anggota tim, deng
 
 ![Screenshot](screenshots/preview.png)
 
-Live Demo: [link-demo-jika-ada](#)
-
 ---
 
 ## Tech Stack
-
-- HTML5
-- CSS3
-- JavaScript (Vanilla)
-- Git & GitHub
 
 ---
 
@@ -27,9 +20,8 @@ Live Demo: [link-demo-jika-ada](#)
 
 - [x] Pindah profil antar anggota lewat navbar
 - [x] Toggle Dark Mode
-- [x] Like Counter interaktif (jumlah like tersimpan terpisah untuk tiap anggota selama halaman terbuka)
-- [x] Responsive layout (penyesuaian tampilan untuk layar kecil)
-
+- [x] Like Counter interaktif 
+- [x] Responsive layout 
 ---
 
 ## Contribution
@@ -56,8 +48,6 @@ Live Demo: [link-demo-jika-ada](#)
 
 ## What I Learned
 
-<!-- Draft awal. Ganti dengan pengalaman kalian sendiri, dan pastikan sesuai dengan yang benar-benar dialami. -->
-
 - Cara kerja alur kolaborasi di Git: membuat branch terpisah, commit, push, lalu menggabungkan lewat Pull Request
 - Pentingnya code review sebelum merge ke branch `main`
 - Cara mengenali dan menyelesaikan merge conflict, terutama saat beberapa orang mengubah file yang sama (`index.html`)
@@ -65,10 +55,3 @@ Live Demo: [link-demo-jika-ada](#)
 - Membuat dark mode dengan CSS variables dan class toggle
 
 ---
-
-## Feature Improvement
-
-- Menyimpan status like counter ke `localStorage` supaya tidak reset saat halaman dimuat ulang
-- Menambahkan animasi transisi saat berpindah profil
-- Menyempurnakan tampilan agar responsive penuh di mobile
-- Deploy otomatis via GitHub Actions ke GitHub Pages
